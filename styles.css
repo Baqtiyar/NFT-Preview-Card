@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.division {
+    background-color: hsl(216, 50%, 16%);
+    height: 535px;
+    width: 310px;
+    padding: 20px;
+    margin-left: 510px;
+    margin-top: 30px;
+    border-radius: 25px;
+
+}
+
+.image {
+    width: 290px;
+    height: 270px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 15px;
+
+}
+
+.para1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 580;
+}
+
+.para1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.para2 {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    clear: left;
+}
+
+.para3 {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 550;
+}
+
+.para3:hover {
+    color: azure;
+}
+
+.clock {
+    margin-left: 90px;
+}
+
+.para4 {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 350;
+}
+
+.para5 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 350;
+    font-family: 'Outfit', sans-serif;
+}
+
+.para5:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.hr {
+    width: 95%;
+    background-color: hsl(215, 32%, 27%);
+    border-style: none;
+
+}
+
+.span {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    border: 20px;
+}
