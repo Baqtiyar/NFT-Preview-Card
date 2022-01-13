@@ -40,49 +40,143 @@ Users should be able to:
 
 ```html
 Some HTML code I'm proud of
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NFT Preview Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500&display=swap" rel="stylesheet">
+</head>
+
 <body>
     <div class="division">
         <img class="image" src="image-equilibrium.jpg" alt="equilibrium-image">
         <p class="para1">Equilibrium #3429</p>
         <p class="para2">Our Equilibrium collection promotes balance and calm.</p>
-        <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"fill="#00FFF8" /></svg>
+        <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+                fill="#00FFF8" /></svg>
         <p class="para3">0.041 ETH</p>
-        <svg class="clock" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9" /></svg>
+        <svg class="clock" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+                fill="#8BACD9" /></svg>
         <p class="para4">3 days left</p>
         <hr size="3" class="hr">
         <img class="avatar" src="image-avatar.png" alt="avatar-image">
         <p class="para5"> <span class="span">Creation of</span> Jules Wyvern</p>
 
     </div>
+</body>
+
+</html>
+  
 ```
 
 ```css
 .proud-of-this-css body {
-  background-color: hsl(217, 54%, 11%);
+body {
+    background-color: hsl(217, 54%, 11%);
 }
 
 .division {
-  background-color: hsl(216, 50%, 16%);
-  height: 535px;
-  width: 310px;
-  padding: 20px;
-  margin-left: 510px;
-  margin-top: 30px;
-  border-radius: 25px;
+    background-color: hsl(216, 50%, 16%);
+    height: 535px;
+    width: 310px;
+    padding: 20px;
+    margin-left: 510px;
+    margin-top: 30px;
+    border-radius: 25px;
+
 }
 
 .image {
-  width: 290px;
-  height: 270px;
-  margin: 10px 0px 10px 10px;
-  border-radius: 15px;
+    width: 290px;
+    height: 270px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 15px;
+
 }
 
 .para1 {
-  color: hsl(0, 0%, 100%);
-  font-size: 18px;
-  font-family: "Outfit", sans-serif;
-  font-weight: 580;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 580;
+}
+
+.para1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.para2 {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    clear: left;
+}
+
+.para3 {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 550;
+}
+
+.para3:hover {
+    color: azure;
+}
+
+.clock {
+    margin-left: 90px;
+}
+
+.para4 {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 350;
+}
+
+.para5 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 350;
+    font-family: 'Outfit', sans-serif;
+}
+
+.para5:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.hr {
+    width: 95%;
+    background-color: hsl(215, 32%, 27%);
+    border-style: none;
+
+}
+
+.span {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    border: 20px;
 }
 ```
 
