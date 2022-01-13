@@ -40,7 +40,8 @@ Users should be able to:
 
 ```html
 Some HTML code I'm proud of
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -56,7 +57,7 @@ Some HTML code I'm proud of
 <body>
     <div class="division">
         <img class="image" src="image-equilibrium.jpg" alt="equilibrium-image">
-        <p class="para1">Equilibrium #3429</p>
+        <h1 class="para1">Equilibrium #3429</h1>
         <p class="para2">Our Equilibrium collection promotes balance and calm.</p>
         <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
             <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
@@ -67,13 +68,14 @@ Some HTML code I'm proud of
                 d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
                 fill="#8BACD9" /></svg>
         <p class="para4">3 days left</p>
-        <hr size="3" class="hr">
+        <hr class="hr">
         <img class="avatar" src="image-avatar.png" alt="avatar-image">
         <p class="para5"> <span class="span">Creation of</span> Jules Wyvern</p>
 
     </div>
-</body>
 
+
+</body>
 </html>
   
 ```
@@ -161,6 +163,7 @@ body {
     width: 95%;
     background-color: hsl(215, 32%, 27%);
     border-style: none;
+    height: 1px;
 
 }
 
