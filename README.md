@@ -39,6 +39,7 @@ Some HTML code I'm proud of
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Preview Card</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon-32x32.png">
